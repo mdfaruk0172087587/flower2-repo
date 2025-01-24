@@ -1,0 +1,66 @@
+.lato-thin {
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+body{
+    max-width: 1920px;
+    margin: 0px auto;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    gap: 97px;
+}
+.flower-containt{
+    margin-top: 197px;
+    margin-left: 240px;
+}
+.flower-img{
+    margin-top: 50px;
+    margin-right: 240px;
+}
+.flower-title{
+    font-weight: 800;
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 32px;
+}
+.flower-descrition{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 20px 43px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .flower-img >img{
+        text-align: center;
+        width: 100%;
+    }
+    .flower-containt{
+        margin: 10px;
+    }
+}
